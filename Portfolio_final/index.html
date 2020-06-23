@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <!-- <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script> -->
+
+    <title>Ivan Estrabo | Front End Developer</title>
+  </head>
+  <body class="main__container">
+    <!-- START OF NAVIGATION -->
+    <nav class="navbar">
+      <div class="navbar__nav-logo">
+        <a href="#"><img src="img/logo-2.png" alt="" /></a>
+      </div>
+      <ul class="navbar__nav js--main-nav">
+        <li><a class="js--scroll-to-about">About</a></li>
+        <li><a class="js--scroll-to-portfolio">Portfolio</a></li>
+        <li><a class="js--scroll-to-contact">Contact</a></li>
+      </ul>
+      <a class="mobile-nav-icon js--nav-icon"
+        ><i class="ion-navicon-round"></i
+      ></a>
+    </nav>
+    <!-- END OF NAVIGATION -->
+
+    <a id="button"></a>
+
+    <!-- START OF HEADER BACKGROUND ANIMATION -->
+    <div id="large-header" class="large-header">
+      <canvas id="demo-canvas" class=""></canvas>
+    </div>
+    <!-- END OF HEADER BACKGROUND ANIMATION -->
+
+    <!-- START OF HEADER -->
+    <header class="header js--header">
+      <div class="header__img">
+        <div class="header__top-block">
+          <img src="img/logo-pcs-1.png" alt="Logo" class="header__logo-1" />
+          <img src="img/logo-pcs-2.png" alt="Logo" class="header__logo-2" />
+        </div>
+        <div class="header__bottom-block">
+          <img src="img/logo-pcs-3.png" alt="Logo" class="header__logo-3" />
+          <img src="img/logo-pcs-4.png" alt="Logo" class="header__logo-4" />
+        </div>
+      </div>
+      <div class="header__text-box">
+        <h1 class="header-primary">
+          <span class="span-name">Ivan</span>
+          <span>Est</span>
+        </h1>
+        <h2 class="header-secondary">
+          <span>Student</span><strong>//</strong><span>Developer</span><strong>//</strong><span>Designer</span> 
+        </h2>
+      </div>
+      <!-- START OF ANIMATED SCROLL DOWN BUTTON -->
+      <a class="arrow-container js--scroll-to-about">
+        <div class="arrow"></div>
+        <div class="arrow"></div>
+        <div class="arrow"></div>
+      </a>
+      <!-- END OF ANIMATED SCROLL DOWN BUTTON -->
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- START OF ABOUT ME -->
+    <section class="section-about js--section-about js-scroll--section-about "  id="section-about">
+      <!-- <div class="section-about__about-profile"> -->
+        <img
+          class="section-about__about-profile-img"
+          src="img/profile.png"
+          alt=""
+        />
+      <!-- </div> -->
+      <div class="section-about__about-textbox">
+        <h1 class="header-primary-sub">About Me</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            soluta quis nobis nulla dolore suscipit minima! Dignissimos nostrum
+            delectus commodi quisquam aperiam voluptatem, quam libero?
+            Aspernatur a hic alias debitis.
+          </p>
+        <div class="section-about__about-social-icons">
+          <a
+            href="https://www.facebook.com/ivanestrab0"
+            target="_blank"
+          >
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a
+            href="https://www.instagram.com/ivanestrabo"
+            target="_blank"
+          >
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a
+            href="https://www.github.com/ivanestrabo"
+            target="_blank"
+          >
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- END OF ABOUT ME -->
+    
+    <!-- START OF CAPABILITIES -->
+    <section class="section-capabilities">
+      <h2 class="section-capabilities__text-header header-primary">Capabilities</h2>
+      <div class="section-capabilities__text-sub-designer">
+        <h2 class="header-secondary">Designer</h3>
+        <ul>
+          <li>UX Designer</li>
+          <li>UI Designer</li>
+          <li>Minamalist design</li>
+          <li>Making it fancy</li>
+        </ul>
+      </div>
+      <div class="section-capabilities__text-sub-coder">
+        <h2 class="header-secondary">Coder</h3>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>JAVASCRIPT</li>
+          <li>Front-end development</li>
+          <li>Swearing at screen</li>
+        </ul>
+      </div>
+      <figure class="section-capabilities__figure">
+        <h1 class="percentage-60">60&#37</h1>
+        <h1 class="percentage-40">40&#37</h1>
+        <svg viewBox="0 0 63.6619772368 63.6619772368">
+          <circle
+            class="pie1"
+            cx="31.8309886184"
+            cy="31.8309886184"
+            r="15.9154943092"
+          />
+          <circle
+            class="pie2"
+            cx="31.8309886184"
+            cy="31.8309886184"
+            r="15.9154943092"
+          />
+        </svg>
+      </figure>
+    </section>
+    <!-- END OF CAPABILITIES -->
+
+    <!-- START OF RANDOM FACTS -->
+    <section class="section-random-facts js--section-random-facts">
+      <img class="section-random-facts__img" src="img/yoda.png" alt="">
+      <div class="section-random-facts__textbox">
+        <h2 class="header-primary-sub">Random Facts</h2>
+        <ul>
+          <li>I'm a minimalist</li>
+          <li>I love to draw</li>
+          <li>I love anime & manga</li>
+          <li>I want to live in Japan</li>
+          <li>I love interior design</li>
+          <li>Organized and a clean freak</li>
+          <li>I choose tea over coffee</li>
+          <li>Master Yoda's apprentice</li>
+          <li>Stephen King's hardcore fanatic</li>
+        </ul>
+      </div>
+    </section>  
+    <!-- END OF RANDOM FACTS -->
+
+    <!-- START OF SKILLS -->
+    <!-- <section class="section-skill js--section-skill">
+      <h2 class="section-skill__text-header header-primary">My Skills</h2>
+      <p class="p1"></p>
+      <p class="p2"></p>
+      <p class="p3"></p>
+      <div class="skillbar clearfix " data-percent="95%">
+        <div class="skillbar-title" style="background: #22634B;"><span>Tea drinking</span></div>
+        <div class="skillbar-bar" style="background: #437563;"></div>
+        <div class="skill-bar-percent">95%</div>
+      </div>
+      <div class="skillbar clearfix " data-percent="70%">
+          <div class="skillbar-title" style="background: #4C8670;"><span>HTML/CSS</span></div>
+          <div class="skillbar-bar" style="background: #66A08A;"></div>
+          <div class="skill-bar-percent">70%</div>
+      </div>
+      <div class="skillbar clearfix " data-percent="90%">
+        <div class="skillbar-title" style="background: #22634B;"><span>Drawing</span></div>
+        <div class="skillbar-bar" style="background: #437563;"></div>
+        <div class="skill-bar-percent">90%</div>
+      </div>
+      <div class="skillbar clearfix " data-percent="65%">
+        <div class="skillbar-title" style="background: #66A08A;"><span>Badminton</span></div>
+        <div class="skillbar-bar" style="background: rgb(118, 190, 163);"></div>
+        <div class="skill-bar-percent">65%</div>
+      </div> 
+      <div class="skillbar clearfix " data-percent="78%">
+        <div class="skillbar-title" style="background: #22634B;"><span>Cooking</span></div>
+        <div class="skillbar-bar" style="background: #437563;"></div>
+        <div class="skill-bar-percent">78%</div>
+      </div> 
+      <div class="skillbar clearfix " data-percent="24%">
+        <div class="skillbar-title" style="background: #66A08A;"><span>Piano</span></div>
+        <div class="skillbar-bar" style="background: rgb(118, 190, 163);"></div>
+        <div class="skill-bar-percent">24%</div>
+      </div>  
+    </section>  -->
+    <!-- END OF SKILLS -->
+
+    <!-- START OF PORTFOLIO -->
+    <section class="section-portfolio js--section-portfolio js-scroll--section-portfolio" id="section-portfolio">
+      <div class="section-portfolio__header">
+        <h2 class="header-primary-sub">Projects</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, aspernatur rem velit iure cum expedita quia eligendi.</p>
+      </div>
+      <div class="section-portfolio__showcase section-portfolio__clearfix">
+        <figure class="section-portfolio__photos">
+          <a href="#popup-1" class="section-portfolio__link"><img src="img/port-1-logo.png" alt="" class="img-1"></a>
+        </figure>
+        <figure class="section-portfolio__photos">
+          <a href="#popup-2" class="section-portfolio__link"><img src="img/port-2-logo.png" alt="" class="img-2"></a>
+        </figure>
+        <figure class="section-portfolio__photos">
+          <a href="#popup-3" class="section-portfolio__link"><img src="img/port-3-logo.png" alt="" class="img-3"></a>
+        </figure>
+        <figure class="section-portfolio__photos">
+          <a href="#popup-4" class="section-portfolio__link"><img src="img/port-4-logo.png" alt="" class="img-4"></a>
+        </figure>
+        <figure class="section-portfolio__photos">
+          <a href="#popup-5" class="section-portfolio__link"><img src="img/port-5-logo.png" alt="" class="img-5"></a>
+        </figure>
+        <figure class="section-portfolio__photos">
+          <a href="#popup-6" class="section-portfolio__link"><img src="img/port-6-logo.png" alt="" class="img-6"></a>
+        </figure>
+        <figure class="section-portfolio__photos">
+          <a href="#popup-7" class="section-portfolio__link"><img src="img/port-7-logo.png" alt="" class="img-7"></a>
+        </figure>
+        <figure class="section-portfolio__photos">
+          <a href="#popup-8" class="section-portfolio__link"><img src="img/port-8-logo.png" alt="" class="img-8"></a>
+        </figure>
+      </div>
+    </section>
+    <!-- END OF PORTFOLIO -->
+
+    <!-- START OF CONTACT -->
+    <section class="section-contact js-scroll--section-contact" id="section-contact">
+      <h2 class="section-contact__header header-primary-sub">In need of a designer & developer?</h2>
+      <div class="section-contact__text-left">I'm currently available for freelance work.</div>
+      <div class="section-contact__text-right"><span>+639 45 512 7442‬</span><span>estraboivan@gmail.com</span></div>
+        <a href=""class="btn-text" >Send a message</a>
+    </section>
+    <!-- CONTACT -->
+  
+    <!-- START OF FOOTER -->
+    <footer class="footer">
+      <div class="footer__copyright"> &copy; 2020 Ivan Estrabo</div>
+      <div class="footer__social-accounts">
+        <a href="https://www.facebook.com/ivanestrab0" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/ivanestrabo" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.github.com/ivanestrabo" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- START OF POPUP-1 -->
+    <div class="popup" id="popup-1">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/port-1.png" alt="" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-portfolio" class="popup__close">&times;</a>
+          <h1 class="popup__header">Natours</h1>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur quis animi reprehenderit ipsa. Inventore aliquid esse
+            aut obcaecati consequuntur, asperiores, quod hic architecto officiis
+            omnis labore numquam possimus maiores expedita.
+          </p>
+          <a href="#" class="btn-text-sub"><span>&rarr;</span> Learn more</a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF POPUP-1 -->
+
+    <!-- START OF POPUP-2 -->
+    <div class="popup" id="popup-2">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/port-2.png" alt="" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-portfolio" class="popup__close">&times;</a>
+          <h1 class="popup__header">
+            Omnifood
+          </h1>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur quis animi reprehenderit ipsa. Inventore aliquid esse
+            aut obcaecati consequuntur, asperiores, quod hic architecto officiis
+            omnis labore numquam possimus maiores expedita.
+          </p>
+          <a href="#" class="btn-text-sub"><span>&rarr;</span> Learn more</a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF POPUP-2 -->
+
+    <!-- START OF POPUP-3 -->
+    <div class="popup" id="popup-3">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/port-3.png" alt="" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-portfolio" class="popup__close">&times;</a>
+          <h1 class="popup__header">
+            Trillo
+          </h1>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur quis animi reprehenderit ipsa. Inventore aliquid esse
+            aut obcaecati consequuntur, asperiores, quod hic architecto officiis
+            omnis labore numquam possimus maiores expedita.
+          </p>
+          <a href="#" class="btn-text-sub"><span>&rarr;</span> Learn more</a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF POPUP-3 -->
+
+    <!-- START OF POPUP-4 -->
+    <div class="popup" id="popup-4">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/port-4.png" alt="" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-portfolio" class="popup__close">&times;</a>
+          <h1 class="popup__header">
+            Nexter
+          </h1>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur quis animi reprehenderit ipsa. Inventore aliquid esse
+            aut obcaecati consequuntur, asperiores, quod hic architecto officiis
+            omnis labore numquam possimus maiores expedita.
+          </p>
+          <a href="#" class="btn-text-sub"><span>&rarr;</span> Learn more</a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF POPUP-4 -->
+
+    <!-- START OF POPUP-5 -->
+    <div class="popup" id="popup-5">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/port-5.png" alt="" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-portfolio" class="popup__close">&times;</a>
+          <h1 class="popup__header">
+            Pig Game
+          </h1>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur quis animi reprehenderit ipsa. Inventore aliquid esse
+            aut obcaecati consequuntur, asperiores, quod hic architecto officiis
+            omnis labore numquam possimus maiores expedita.
+          </p>
+          <a href="#" class="btn-text-sub"><span>&rarr;</span> Learn more</a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF POPUP-5 -->
+
+    <!-- START OF POPUP-6 -->
+    <div class="popup" id="popup-6">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/port-6.png" alt="" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-portfolio" class="popup__close">&times;</a>
+          <h1 class="popup__header">
+            Budgety
+          </h1>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur quis animi reprehenderit ipsa. Inventore aliquid esse
+            aut obcaecati consequuntur, asperiores, quod hic architecto officiis
+            omnis labore numquam possimus maiores expedita.
+          </p>
+          <a href="#" class="btn-text-sub"><span>&rarr;</span> Learn more</a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF POPUP-6 -->
+
+    <!-- START OF POPUP-7 -->
+    <div class="popup" id="popup-7">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/port-7.png" alt="" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-portfolio" class="popup__close">&times;</a>
+          <h1 class="popup__header">
+            Ecomm Shop
+          </h1>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur quis animi reprehenderit ipsa. Inventore aliquid esse
+            aut obcaecati consequuntur, asperiores, quod hic architecto officiis
+            omnis labore numquam possimus maiores expedita.
+          </p>
+          <a href="#" class="btn-text-sub"><span>&rarr;</span> Learn more</a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF POPUP-7 -->
+
+    <!-- START OF POPUP-8 -->
+    <div class="popup" id="popup-8">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/port-8.png" alt="" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-portfolio" class="popup__close">&times;</a>
+          <h1 class="popup__header">
+            Movie Fight
+          </h1>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur quis animi reprehenderit ipsa. Inventore aliquid esse
+            aut obcaecati consequuntur, asperiores, quod hic architecto officiis
+            omnis labore numquam possimus maiores expedita.
+          </p>
+          <a href="#" class="btn-text-sub"><span>&rarr;</span> Learn more</a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF POPUP-8 -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> -->
+  </body>
+</html>
